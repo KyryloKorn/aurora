@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Aurora TV — установка</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #000; color: #fff; font: 18px/1.5 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 34px; margin: 0 0 6px; letter-spacing: -0.5px; }
+  h2 { font-size: 22px; margin: 40px 0 12px; }
+  p.lead { color: #a1a1a6; margin: 0 0 28px; }
+  a.button { display: inline-block; background: #fff; color: #000; text-decoration: none; font-weight: 600;
+             padding: 16px 32px; border-radius: 999px; font-size: 20px; }
+  a.button:focus { outline: 4px solid #0a84ff; outline-offset: 4px; }
+  ol { padding-left: 24px; margin: 0; }
+  li { margin: 0 0 12px; }
+  .note { background: #1c1c1e; border-radius: 14px; padding: 16px 18px; margin-top: 28px; color: #d1d1d6; }
+  code { background: #2c2c2e; padding: 2px 8px; border-radius: 6px; font-size: 0.95em; }
+  #ver { color: #6e6e73; font-size: 15px; margin-top: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Aurora TV</h1>
+  <p class="lead">Приложение для телевизоров и приставок на Android TV и Google TV.</p>
+
+  <a class="button" href="a.apk" autofocus>Скачать приложение</a>
+  <div id="ver"></div>
+
+  <h2>Если вы открыли эту страницу на телевизоре</h2>
+  <ol>
+    <li>Нажмите «Скачать приложение» и дождитесь окончания загрузки.</li>
+    <li>Откройте скачанный файл. Если телевизор спросит разрешение на установку из этого источника — разрешите.</li>
+    <li>Нажмите «Установить», затем «Открыть».</li>
+    <li>Введите код доступа, который вам сообщили. Он нужен один раз.</li>
+  </ol>
+
+  <h2>Если на телевизоре нет браузера</h2>
+  <ol>
+    <li>Установите на телевизор из Google Play бесплатное приложение <b>Downloader</b>.</li>
+    <li>Откройте его и введите адрес этой страницы, добавив в конце <code>/a.apk</code></li>
+    <li>Нажмите «Go», затем «Install».</li>
+    <li>Откройте Aurora TV и введите код доступа.</li>
+  </ol>
+
+  <div class="note">
+    Дальше приложение обновляется само: когда выйдет новая версия, на кнопке «Обновление» в верхнем меню
+    появится точка. Нажмите её и подтвердите установку.<br><br>
+    Приложение работает только на Android TV и Google TV. На телевизорах Samsung (Tizen) и LG (webOS)
+    оно не установится — нужна приставка на Android TV.
+  </div>
+</main>
+<script>
+  fetch('update.json', { cache: 'no-store' })
+    .then(function (r) { return r.json(); })
+    .then(function (u) { document.getElementById('ver').textContent = 'Версия ' + u.versionName; })
+    .catch(function () {});
+</script>
+</body>
+</html>
