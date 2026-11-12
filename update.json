@@ -1,7 +1,7 @@
 {
-  "versionCode": 18,
-  "versionName": "1.0.18",
-  "apk": "aurora-18.apk",
-  "sha256": "1d891289702a68b31a79f77cdf616bd8b99fbfeabd9d1a5da9e52044f2cae670",
-  "notes": "Первая версия для семьи"
+  "versionCode": 19,
+  "versionName": "1.0.19",
+  "apk": "aurora-19.apk",
+  "sha256": "dee8793594285d7a89657fcaa6616aeb9d9e134b177e65dbb50f923463ef0586",
+  "notes": "Загрузка вперёд на паузе"
 }
