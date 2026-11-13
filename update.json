@@ -1,7 +1,7 @@
 {
-  "versionCode": 23,
-  "versionName": "1.0.23",
-  "apk": "aurora-23.apk",
-  "sha256": "4122ad1535c982fe953770dbd3f39e552d30fb65deef7feed5b5ed7af3cd5371",
-  "notes": "Постеры загружаются заранее"
+  "versionCode": 24,
+  "versionName": "1.0.24",
+  "apk": "aurora-24.apk",
+  "sha256": "c5dac6bedd67b4e4d66aa613a0e9886e4073140f0d3d0ceef0fc9777bf2dc8c1",
+  "notes": "Жанры в фильмах и сериалах"
 }
