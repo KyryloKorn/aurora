@@ -1,7 +1,7 @@
 {
-  "versionCode": 20,
-  "versionName": "1.0.20",
-  "apk": "aurora-20.apk",
-  "sha256": "ab7c52eca4a6c4f8061715451b9a561265345fb933569d4f4531f7b3b32af7bf",
-  "notes": "Кэш для маленького накопителя, скрытая диагностика"
+  "versionCode": 21,
+  "versionName": "1.0.21",
+  "apk": "aurora-21.apk",
+  "sha256": "144122da915a6b1d23c1dae4a7352a633ef86c52580669608c06d5ee008c72a3",
+  "notes": "Экономный кэш постеров"
 }
