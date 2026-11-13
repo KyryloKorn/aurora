@@ -1,7 +1,7 @@
 {
-  "versionCode": 21,
-  "versionName": "1.0.21",
-  "apk": "aurora-21.apk",
-  "sha256": "144122da915a6b1d23c1dae4a7352a633ef86c52580669608c06d5ee008c72a3",
-  "notes": "Экономный кэш постеров"
+  "versionCode": 22,
+  "versionName": "1.0.22",
+  "apk": "aurora-22.apk",
+  "sha256": "0b646a6ec873b7df159a5e717bbdc51958df166f97bc5ad2f33c52f026a130a3",
+  "notes": "Быстрая перемотка назад"
 }
