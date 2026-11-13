@@ -1,7 +1,7 @@
 {
-  "versionCode": 22,
-  "versionName": "1.0.22",
-  "apk": "aurora-22.apk",
-  "sha256": "0b646a6ec873b7df159a5e717bbdc51958df166f97bc5ad2f33c52f026a130a3",
-  "notes": "Быстрая перемотка назад"
+  "versionCode": 23,
+  "versionName": "1.0.23",
+  "apk": "aurora-23.apk",
+  "sha256": "4122ad1535c982fe953770dbd3f39e552d30fb65deef7feed5b5ed7af3cd5371",
+  "notes": "Постеры загружаются заранее"
 }
