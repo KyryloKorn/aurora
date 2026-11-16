@@ -1,7 +1,7 @@
 {
-  "versionCode": 25,
-  "versionName": "1.0.25",
-  "apk": "aurora-25.apk",
-  "sha256": "e2b5607efd0bcb2e810f5e027897b8c1fe6d5142409fb0bcb44bc3800414c560",
-  "notes": "Смотреть позже"
+  "versionCode": 26,
+  "versionName": "1.0.26",
+  "apk": "aurora-26.apk",
+  "sha256": "2afaa37da7c5e1ef67a63e4538d1e71117fb0ecf362545774d4e1be1db97e79c",
+  "notes": "Звук AC3 и усиление диалогов"
 }
